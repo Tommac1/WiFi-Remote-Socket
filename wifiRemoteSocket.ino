@@ -5,8 +5,8 @@
 #define pinD3 D3
 #define pinD4 D4
 
-const char* ssid = "vnet-02D59A";
-const char* password = "276789982";
+const char* ssid = "ssid";
+const char* password = "pass";
 
 int pinD1state = 0, pinD2state = 0, pinD3state = 0, pinD4state = 0;
 
