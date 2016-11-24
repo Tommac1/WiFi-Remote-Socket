@@ -1,4 +1,4 @@
-coming soon: screenshots, photos, video(?), complete tutorial...
+coming soon: more screenshots, photos, video(?), electrical schematics and complete tutorial...
 
 Remote Socket using WiFi
 ------------------------
@@ -37,4 +37,10 @@ Remote Socket using WiFi
 **How to**
 
 Upload a sketch into the wemos board and connect relay to pins 1, 2, 3, 4 and socket circuit.
+
+----------
+
+**Screenshots**
+
+> <img src="http://i.imgur.com/ZI1yKKw.png"></img>
 
