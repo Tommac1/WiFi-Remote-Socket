@@ -36,7 +36,7 @@ Remote Socket using WiFi
 
 **How to**
 
-Upload a sketch into the wemos board and connect relay to pins 1, 2, 3, 4 and socket circuit.
+Upload a sketch into the wemos board and connect relay modules to pins 1, 2, 3, 4 and socket circuit.
 
 ----------
 
