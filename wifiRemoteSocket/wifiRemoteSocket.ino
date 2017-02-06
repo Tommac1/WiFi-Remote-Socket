@@ -1,3 +1,18 @@
+/****************************************
+
+  Project created in November 2016.
+  author: Tommac1
+  
+  This program allows to remote control of
+  electrical devices through WiFi connection.
+  WeMoS board programmed through Arudino IDE sets
+  a webpage accessible from every other device connected 
+  to the wifi. Using GET Method, user sets output on pins
+  which are connected to Relays' coils and open a short
+  for devices.
+
+****************************************/
+
 #include <ESP8266WiFi.h>
 
 #define pinD1 D1
