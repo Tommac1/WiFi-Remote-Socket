@@ -5,6 +5,7 @@
 #define pinD3 D3
 #define pinD4 D4
 
+// your wifi network preferences
 const char* ssid = "ssid";
 const char* password = "pass";
 
@@ -59,6 +60,7 @@ void loop() {
     delay(1);
   }
   
+  // read the get method
   String req = client.readStringUntil('\r');
   Serial.println(req);
   client.flush();
@@ -95,6 +97,7 @@ void loop() {
   
   client.flush();
 
+  // html + css of webpage 
   String pageCode = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\
 <html lang='pl'>\
 <head>\
